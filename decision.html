@@ -1,0 +1,152 @@
+Calculator
+
+const Calculator = (A, B, C) => 
+
+{
+   switch (A)
+   {
+     case '+' :
+       return (B + C) ;
+      case '-' :
+       return (B-C);
+     case '*' :
+       return (B*C);
+      case '/' :
+       return (B/C);
+       
+   }
+  
+	
+    
+};
+
+Check whether the condition is fulfilled or not?
+
+const Check_divisibility = (N) => {
+    
+    if (N % 6 ===0 && N % 9===0) {
+      return ("Divisible by both")
+    }
+    else {
+      return (" Not Divisible by both")
+    }
+       
+   };
+   
+   Eligible Voter
+
+const isEligible = (a) => {
+    if (a>=18) {
+      return ("Eligible for Voting")
+    }
+    else{
+      return ("Not Eligible for Voting")
+    }
+};
+
+Find Relation
+
+const findRelation = (x,y) => {
+    if (x<y){
+      return (x + " is smaller than " + y)
+    }
+    else if (x>y) {
+      return (x + " is greater than " + y)
+    }
+    else if (x=y) {
+      return (x +" is equal to "+ y)
+    }
+      
+  };
+  
+  Find Grades
+
+  const findGrades = (a) => {
+    if(a<=10) {
+      return ("E")
+    }
+    else if(a>=11 && a<=20) {
+      return ("D")
+    }
+    else if(a>=21 && a<=30) {
+      return ("C")
+    }
+    else if(a>=31 && a<=40) {
+      return ("B")
+    }
+    else if(a>=41 && a<=50) {
+      return ("A")
+    }
+      
+  };
+  
+  Get Value
+
+  const getValue = (a) => {
+    switch (true){
+      case(a=='P' || a=='p'):
+        return("PrepBytes")
+            case(a=='Z' || a=='z'):
+        return("Zenith")
+            case(a=='E' || a=='e'):
+        return("Expert Coder")
+            case(a=='D' || a=='d'):
+        return("Data Structure")
+    }
+  
+  };
+  
+  Find the maximum out of three numbers.
+
+  const Max_out_of_three = (A,B,C) => {
+    if (A>B && A>C){
+      return A;
+    }
+    else if (B>A && B>C){
+      return B;
+    }
+    else if (C>A && C>B){
+      return C;
+    }
+    else  {
+      return ("-1");
+    }
+      
+  
+  };
+  
+  Second Smallest
+
+  
+const findSndSmallest = (x,y,z) => {
+    if ((x<y && x>z) || (x>y && x<z)){
+      return x;
+    }
+    else if ((y<x && y>z) || (y>x && y<z)){
+      return y;
+    }
+    else {
+      return z;
+    }
+      
+  };
+  
+  
+  
+
+  
+const Triangle_Check = (A,B,C) => {
+  
+    if (A+B+C<180){
+      return("acute")
+    }
+      else {
+        return ("obtuse")
+      }
+      
+      
+      
+      
+  };
+  
+  
